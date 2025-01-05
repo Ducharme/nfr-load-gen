@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1736112204137,3424,Http Get - Warm Up,200,OK,Warm Up Thread Group 1-1,text,true,,923,120,1,1,http://archive.ubuntu.com/,3419,0,3219
+1736112207564,195,Http Get - Warm Up,200,OK,Warm Up Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,195,0,0
+1736112207760,199,Http Get - Warm Up,200,OK,Warm Up Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,199,0,0
+1736112207960,196,Http Get - Warm Up,200,OK,Warm Up Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,196,0,0
+1736112208157,195,Http Get - Warm Up,200,OK,Warm Up Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,195,0,0
+1736112208419,423,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,923,120,1,1,http://archive.ubuntu.com/,423,0,211
+1736112209419,212,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,212,0,0
+1736112210419,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0
+1736112211419,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0
+1736112212419,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0
+1736112213419,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0
+1736112214418,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0
+1736112215418,215,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,215,0,0
+1736112216417,212,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,212,0,0
+1736112217418,211,Http Get - Perf Test,200,OK,Main Thread Group 1-1,text,true,,922,120,1,1,http://archive.ubuntu.com/,211,0,0

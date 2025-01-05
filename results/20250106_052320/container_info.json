@@ -1,0 +1,213 @@
+[
+    {
+        "Id": "a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d",
+        "Created": "2025-01-05T21:23:20.190678097Z",
+        "Path": "/jmeter/run-test.sh",
+        "Args": [],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-01-05T21:23:21.165434942Z",
+            "FinishedAt": "2025-01-05T21:23:39.771085421Z"
+        },
+        "Image": "sha256:aea6e5b1268fcfd325463581bc5b34b72839a9e951defd7d68c1d3552f6f7102",
+        "ResolvConfPath": "/var/lib/docker/containers/a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d/hostname",
+        "HostsPath": "/var/lib/docker/containers/a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d/hosts",
+        "LogPath": "/var/lib/docker/containers/a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d/a041d349efc32140fe8e57702f806d4f5586f1711219a2511bb6d2ec3b57213d-json.log",
+        "Name": "/jmeter-test",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/claude/nfr-perf/results/20250106_052320:/jmeter/report"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1de3964deb3c88d62a285596d3ae30131674df7815de0f2180c7799affbcb386-init/diff:/var/lib/docker/overlay2/xsljrciui0w8e6oc5ybalabac/diff:/var/lib/docker/overlay2/jt2fyvgkrdv0ul71i16cxr7ww/diff:/var/lib/docker/overlay2/v38qavn95e1l7n81nsbcvc94d/diff:/var/lib/docker/overlay2/xl1hke9shzu67nwltzs9rhkjh/diff:/var/lib/docker/overlay2/y4hf3uom8vy73gtx7eioz0tw7/diff:/var/lib/docker/overlay2/yhso6yug4z1n2p8tqrvuyc9uu/diff:/var/lib/docker/overlay2/5hfeif6e7ib3s0yydl2wdeskp/diff:/var/lib/docker/overlay2/4wj3z9nw3xyq1rl07kx7yimnx/diff:/var/lib/docker/overlay2/jeth9quozudhdfu0z1ky97vlj/diff:/var/lib/docker/overlay2/tgrxt7xbnzlo7hp8h5clfbm5w/diff:/var/lib/docker/overlay2/ce91d8eac606123840b4b48b39ac541f5056bf41082301b2caccf68740d58d14/diff",
+                "MergedDir": "/var/lib/docker/overlay2/1de3964deb3c88d62a285596d3ae30131674df7815de0f2180c7799affbcb386/merged",
+                "UpperDir": "/var/lib/docker/overlay2/1de3964deb3c88d62a285596d3ae30131674df7815de0f2180c7799affbcb386/diff",
+                "WorkDir": "/var/lib/docker/overlay2/1de3964deb3c88d62a285596d3ae30131674df7815de0f2180c7799affbcb386/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/claude/nfr-perf/results/20250106_052320",
+                "Destination": "/jmeter/report",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "a041d349efc3",
+            "Domainname": "",
+            "User": "jmeter",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/apache-jmeter-5.6.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive",
+                "JMETER_VERSION=5.6.3",
+                "JMETER_HOME=/opt/apache-jmeter-5.6.3"
+            ],
+            "Cmd": null,
+            "Image": "jmeter-test",
+            "Volumes": null,
+            "WorkingDir": "/jmeter",
+            "Entrypoint": [
+                "/jmeter/run-test.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.10"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "",
+                    "DriverOpts": null,
+                    "NetworkID": "a3b112e4d1872a26f65668408c915e500176f123d580ae9f7f40bd50fc727f1d",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]

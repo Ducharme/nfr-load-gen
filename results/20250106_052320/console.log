@@ -1,0 +1,17 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Jan 05, 2025 9:23:23 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using perf_test.jmx
+Starting standalone test @ 2025 Jan 5 21:23:23 GMT (1736112203897)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:04 =    0.3/s Avg:  3424 Min:  3424 Max:  3424 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     10 in 00:00:06 =    1.6/s Avg:   226 Min:   195 Max:   423 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =     11 in 00:00:10 =    1.1/s Avg:   517 Min:   195 Max:  3424 Err:     0 (0.00%)
+summary +      4 in 00:00:04 =    1.0/s Avg:   212 Min:   211 Max:   215 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     15 in 00:00:14 =    1.1/s Avg:   435 Min:   195 Max:  3424 Err:     0 (0.00%)
+Tidying up ...    @ 2025 Jan 5 21:23:37 GMT (1736112217631)
+... end of run
