@@ -22,25 +22,30 @@ This project provides a containerized Apache JMeter setup for executing performa
 
 ## Directory Structure
 
+Important files
+```
+.
+├── build-base.sh
+├── build.sh
 ├── Dockerfile
 ├── Dockerfile-base
-├── README.md
-├── build.sh
-├── build-base.sh
 ├── perf_test.jmx
-├── run.sh
 ├── run-test.sh
+├── run.sh
 └── results/
 └── [timestamp]/
-  ├── container_stats.json
-  ├── container_info.json
-  ├── results.jtl
+  ├── dashboard/
+    ├── index.html
+    └── statistics.json
   ├── console.log
+  ├── container_info.json
+  ├── container_stats.json
   ├── jmeter.log
-  ├── perf_test.jmx
   ├── jmeter.properties
-  ├── user.properties
-  └── dashboard/
+  ├── perf_test.jmx
+  ├── results.jtl
+  └── user.properties
+```
 
 ## Installation Steps
 
