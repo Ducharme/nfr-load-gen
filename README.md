@@ -33,18 +33,18 @@ Important files
 ├── run-test.sh
 ├── run.sh
 └── results/
-└── [timestamp]/
-  ├── dashboard/
-    ├── index.html
-    └── statistics.json
-  ├── console.log
-  ├── container_info.json
-  ├── container_stats.json
-  ├── jmeter.log
-  ├── jmeter.properties
-  ├── perf_test.jmx
-  ├── results.jtl
-  └── user.properties
+    └── [timestamp]/
+        ├── dashboard/
+        │   ├── index.html
+        │   └── statistics.json
+        ├── console.log
+        ├── container_info.json
+        ├── container_stats.json
+        ├── jmeter.log
+        ├── jmeter.properties
+        ├── perf_test.jmx
+        ├── results.jtl
+        └── user.properties
 ```
 
 ## Installation Steps
