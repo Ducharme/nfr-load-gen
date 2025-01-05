@@ -1,0 +1,5 @@
+# Exclude results folders anywhere
+# Will match: test_results, results_old, myresults
+# Won't match: results
+*results/
+results*/
